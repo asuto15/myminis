@@ -1,5 +1,5 @@
-pub mod expression;
-pub mod minis;
+pub mod ast;
+pub mod evaluator;
 
 #[cfg(test)]
 mod tests {
